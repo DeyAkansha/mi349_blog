@@ -14,7 +14,6 @@ h2{
     border-top: 1px dotted black ;
     font-weight: bold;
     color: rgb(104, 69, 6);
-
 }
 h3{
     color:black;
@@ -22,15 +21,22 @@ h3{
 }
 p{
     padding-right:300px;
-
 }
 img{
     width: 400px;
     height:250px; 
 }
 
-#title{
-   
+#title{ 
     color: red;
+}
 
+[alt="ME"]{
+    width: 400px;
+    height:670px; 
+}
+
+.table{
+    color:brown;
+    border: 1px solid black;
 }

@@ -1,0 +1,36 @@
+html{
+    background-color: rgb(231, 222, 167);
+}
+body{
+    background: rgb(238, 238, 213);
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    border-color: chocolate;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+h2{
+    border-top: 1px dotted black ;
+    font-weight: bold;
+    color: rgb(104, 69, 6);
+
+}
+h3{
+    color:black;
+    font-weight: bold;
+}
+p{
+    padding-right:300px;
+
+}
+img{
+    width: 400px;
+    height:250px; 
+}
+
+#title{
+   
+    color: red;
+
+}

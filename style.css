@@ -1,8 +1,8 @@
 html{
-    background-color: rgb(231, 222, 167);
+    background-color: rgb(250, 244, 248);
 }
 body{
-    background: rgb(238, 238, 213);
+    background: rgb(235, 223, 230);
     margin: 20px;
     padding: 20px;
     color: black;
@@ -10,8 +10,19 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
 }
 
+section{
+    display: flex; 
+}
+h1{
+    border-bottom:dotted rebeccapurple;
+}
+
+#title{ 
+    color: red;
+}
+
 h2{
-    border-top: 1px dotted black ;
+    /* border-top: 1px dotted black ; */
     font-weight: bold;
     color: rgb(104, 69, 6);
 }
@@ -19,16 +30,32 @@ h3{
     color:black;
     font-weight: bold;
 }
-p{
-    padding-right:300px;
-}
+
 img{
     width: 400px;
     height:250px; 
+
+}
+.biriyani{
+    width: 400px;
+    height:250px; 
+    margin-left:250px;  
+}
+.biriyani-info{
+    margin-right:30px;
+}
+.article1{
+    border-right: 10px;
+   
 }
 
-#title{ 
-    color: red;
+.floatleft-img{
+    float:right;
+    padding-left: 30px;
+
+}
+.article2{
+    margin-left:20px;
 }
 
 [alt="ME"]{
@@ -39,4 +66,13 @@ img{
 .table{
     color:brown;
     border: 1px solid black;
+    flex: 15px;
 }
+
+.two-column{
+    margin-left:700px;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+}
+

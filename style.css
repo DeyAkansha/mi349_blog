@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-    /* border-top: 1px dotted black ; */
+    
     font-weight: bold;
     color: rgb(104, 69, 6);
 }
@@ -45,7 +45,7 @@ img{
     margin-right:30px;
 }
 .article1{
-    border-right: 10px;
+    border-right: 1px dotted black;
    
 }
 
@@ -73,6 +73,10 @@ img{
     margin-left:700px;
     margin-top:30px;
     display:flex;
+    flex-direction: column;
+}
+.multiple-column{
+    display: flex;
     flex-direction: column;
 }
 

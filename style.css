@@ -80,3 +80,8 @@ img{
     flex-direction: column;
 }
 
+@media (max-width: 400px){
+    #title{ 
+        color: red;
+    }
+}

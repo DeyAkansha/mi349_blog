@@ -10,6 +10,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
 }
 
+
 section{
     display: flex; 
 }
@@ -85,4 +86,19 @@ img{
         color: blue;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    section{
+        display: inline; 
+    }
+    img {
+        width: 250px;
+        height: 150px;
+    }
+    .biriyani{
+        width:250px;
+        margin-left: 0;
+        height: 150px;
+    }
+    
 }
+
+
